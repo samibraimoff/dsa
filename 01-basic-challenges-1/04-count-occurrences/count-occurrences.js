@@ -3,7 +3,7 @@ function countOccurrences(string, char) {
   for (let letter of string) {
     if (letter === char) {
       count++;
-    } else count;
+    }
   }
   return count;
 }
